@@ -1,0 +1,77 @@
+.main-layout {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height:250px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px 4px grey;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.display div{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border: 1px;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: 4px 5px 6px 1px rgb(20, 96, 143), 3px 5px 8px 0.5px rgb(245, 58, 58);
+    border-style: solid;
+    width: fit-content;
+    padding: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+[class$='button'] {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.button-group {
+    display:flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.button-group * {
+    display: flex;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+
+.stop-button {
+    background-color:rgb(211, 35, 35);
+    box-shadow: 1px 1px 7px 1px rgb(235, 83, 83);
+}
+
+.reset-button {
+    background-color:rgb(230, 179, 13);
+    box-shadow: 1px 1px 7px 1px rgb(231, 195, 78);
+}
+
+.start-button {
+    background-color: yellowgreen;
+    box-shadow: 1px 1px 7px 1px yellow; /**/
+}
+
+[class$='button']:focus  {
+    outline: none;
+}
+
+.colon {
+    padding: 0.5em;
+    color : whitesmoke;
+}
